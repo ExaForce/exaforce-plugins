@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "exaforce": {
+      "url": "https://mcp.api.us.app.exaforce.io"
+    }
+  }
+}

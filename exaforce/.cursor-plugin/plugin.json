@@ -1,0 +1,20 @@
+{
+  "name": "exaforce",
+  "description": "Search and investigate your Exaforce security data from Cursor: identities, cloud resources, sessions, events, findings and cases, using the same tools and prompts as Exabot Search.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Exaforce",
+    "email": "support@exaforce.com"
+  },
+  "homepage": "https://www.exaforce.com",
+  "repository": "https://github.com/ExaForce/exaforce-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "security",
+    "soc",
+    "investigation",
+    "threat-detection",
+    "mcp"
+  ]
+}
