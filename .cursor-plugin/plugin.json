@@ -1,5 +1,6 @@
 {
   "name": "exaforce",
+  "displayName": "Exaforce",
   "description": "Search and investigate your Exaforce security data from Cursor: identities, cloud resources, sessions, events, findings and cases, using the same tools and prompts as Exabot Search.",
   "version": "1.0.0",
   "author": {
