@@ -11,15 +11,31 @@ integration it relies on is configured for your tenant.
 
 - An Exaforce tenant and a user account on it.
 
-## Install and sign in
+## Install
 
-1. In Cursor, open **Customize** in the sidebar.
-2. Search for **Exaforce**, select **Install**, and choose a project or user scope.
-3. When Cursor asks you to authenticate the `exaforce` MCP server, start the sign-in. A browser window
+Find **Exaforce** on [cursor.directory](https://cursor.directory) and, under its MCP servers, click
+**Add to Cursor**. Cursor opens and adds the `exaforce` MCP server.
+
+To add it by hand instead, put this entry in `~/.cursor/mcp.json` (all projects) or `.cursor/mcp.json`
+(one project):
+
+```json
+{
+  "mcpServers": {
+    "exaforce": {
+      "url": "https://mcp.api.us.app.exaforce.io"
+    }
+  }
+}
+```
+
+## Sign in
+
+1. When Cursor asks you to authenticate the `exaforce` MCP server, start the sign-in. A browser window
    opens.
-4. Enter your tenant name, and click **Next**. For `https://example.us.app.exaforce.io`, the tenant name
+2. Enter your tenant name, and click **Next**. For `https://example.us.app.exaforce.io`, the tenant name
    is `example`.
-5. Sign in with your usual Exaforce credentials.
+3. Sign in with your usual Exaforce credentials.
 
 No API token is needed, and this plugin stores no credentials.
 
